@@ -1,0 +1,36 @@
+{
+    "name": "novomirskoy/workflow",
+    "description": "PHP project.",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Some name",
+            "email": "some@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "beberlei/assert": "^2.9",
+        "symfony/property-access": "2.8.*",
+        "symfony/event-dispatcher": "2.8.*",
+        "psr/log": "1.0.*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Novomirskoy\\Workflow\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Novomirskoy\\Workflow\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    }
+}
